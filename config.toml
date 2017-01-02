@@ -1,4 +1,4 @@
-baseurl             = "https://blog.mdn.net.au/"
+baseurl             = "https://blog-154414.appspot.com/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
