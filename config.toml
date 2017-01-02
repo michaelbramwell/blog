@@ -1,0 +1,37 @@
+baseurl             = "https://blog.mdn.net.au/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+author              = "Michael Bramwell"
+title               = "mdb input/output"
+pygmentsuseclasses  = true
+disqusshortname     = "write-1" # Comment out to disable Disqus.
+pluralizelisttitles = false
+googleAnalytics     = ""
+theme               = "cocoa"
+[permalinks]
+fixed = ":title/"
+blog  = "blog/:slug/"
+
+[params]
+author       = "i/o"
+cachebuster  = true # add the current unix timestamp in query string for cache busting css assets
+dateform     = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description  = "Don't panic"
+email        = "mike@mdb.net.au"
+faviconfile  = "img/leaf.ico"
+github       = "//github.com/michaelbramwell"
+highlightjs  = true
+lang         = "en"
+linkedin     = "//linkedin.com/in/michael-bramwell-3ab96558"
+twitter      = "//twitter.com/mykdb"
+
+# gravatar             = ""     # do not use in the same time as avatar
+# avatar               = ""     # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# highlightjslanguages = ["go"] # additional languages not included in the "common" set
+
+extracssfiles = [ "/css/override.css" ] # In your `static` directory, add/remove files as necessary.
