@@ -1,4 +1,4 @@
-baseurl             = "https://blog-154414.appspot.com/"
+baseurl             = "http://io.mdb.net.au/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
@@ -10,7 +10,7 @@ title               = "mdb input/output"
 pygmentsuseclasses  = true
 disqusshortname     = "write-1" # Comment out to disable Disqus.
 pluralizelisttitles = false
-googleAnalytics     = ""
+googleAnalytics     = "UA-89722980-1"
 theme               = "cocoa"
 [permalinks]
 fixed = ":title/"
