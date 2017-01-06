@@ -5,4 +5,4 @@ title = "About"
 
 +++
 
-Hi!
+I am Michael Bramwell of Perth Western Australia. Hopefully this site reflects my interests which include software development, music and reading.

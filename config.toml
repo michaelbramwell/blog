@@ -30,6 +30,9 @@ lang         = "en"
 linkedin     = "//linkedin.com/in/michael-bramwell-3ab96558"
 twitter      = "//twitter.com/mykdb"
 
+[taxonomies]
+tag = "tags"
+
 # gravatar             = ""     # do not use in the same time as avatar
 # avatar               = ""     # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # highlightjslanguages = ["go"] # additional languages not included in the "common" set
