@@ -1,7 +1,7 @@
 +++
 date = "2017-01-03T15:01:31+08:00"
 title = "Hugo on App Engine"
-tags = [ "Go", "Hugo", "Themes", "App Engine", "Blog" ]
+tags = [ "dev", "go", "hugo", "themes", "app engine", "blog" ]
 +++
 
 Hugo is a good place to start this blog as this site is built on it. [Hugo](https://gohugo.io/) is a static site generator built using [Go language](https://golang.org/). I like Go and the lack of dependency hell that I seemed to experience whenever trying to wrangle with [Jekyll](https://jekyllrb.com/).
