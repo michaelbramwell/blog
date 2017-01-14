@@ -8,7 +8,7 @@ publishdir          = "public"
 author              = "Michael Bramwell"
 title               = "mdb input/output"
 pygmentsuseclasses  = true
-disqusshortname     = "write-1" # Comment out to disable Disqus.
+disqusshortname     = "write-1" 
 pluralizelisttitles = false
 googleAnalytics     = "UA-89722980-1"
 theme               = "cocoa"
@@ -32,9 +32,5 @@ twitter      = "//twitter.com/mykdb"
 
 [taxonomies]
 tag = "tags"
-
-# gravatar             = ""     # do not use in the same time as avatar
-# avatar               = ""     # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# highlightjslanguages = ["go"] # additional languages not included in the "common" set
 
 extracssfiles = [ "/css/override.css" ] # In your `static` directory, add/remove files as necessary.

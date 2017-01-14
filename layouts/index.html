@@ -3,13 +3,18 @@
     <div class="container">
         <div class="content">
             <div class="page-heading">Articles</div>
-            <ul>
+
+            <form><input placeholder="Search" /></form>
+
+            <ul id="server">
             {{ range .Data.Pages.ByPublishDate }}
                 {{ if eq .Section "blog" }}
                     {{ partial "li.html" . }}
                 {{ end }}
             {{ end }}
             </ul>
+
+            <ul id="client"></ul>
         </div>
     </div>
 </section>

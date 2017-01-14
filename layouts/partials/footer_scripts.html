@@ -1,0 +1,30 @@
+<!-- Google Analytics -->
+{{ template "_internal/google_analytics_async.html" . }}
+
+{{ if .Site.Params.highlightjs }}
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+  {{ range .Site.Params.highlightjslanguages }}
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/{{.}}.min.js"></script>
+  {{ end }}
+
+  <script src="/js/search.js"></script>
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+
+    let input = document.getElementsByTagName("input")[0];
+
+    input.addEventListener('keyup', search.debounce(function(e){
+
+      if (e.which === 13) {
+        e.preventDefault();
+      }
+
+      if (e.which !== 0 && !e.ctrlKey && !e.metaKey && !e.altKey) 
+      {
+        search.init(this.value);
+      }
+    }, 300, false));
+    
+  </script>
+{{ end }}

@@ -27,6 +27,9 @@ handlers:
 - url: /css/ 
   static_dir: css
 
+- url: /js/ 
+  static_dir: js
+
 # Handle nearly every other file by just serving it.
 - url: /(.+)
   static_files: \1

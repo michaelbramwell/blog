@@ -1,5 +1,5 @@
 +++
-date = "2018-01-12T23:08:58+08:00"
+date = "2017-01-12T23:08:58+08:00"
 title = "Recursive wav to mp3 with copy and cleanup"
 tags = ["bash", "lame", "encoding", "wav", "mp3", "find", "recursion"]
 +++
