@@ -1,1 +1,11 @@
-/* override css styles of the main theme here */
+input {
+    width: 100%;
+    height: 2.5em;
+    margin-bottom: 1.3em;
+    font-size: 1.0em;
+    padding-left: 1em;
+}
+
+section.main .container .content .post-item .meta {
+    text-align: left;
+}
