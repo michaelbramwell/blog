@@ -1,7 +1,7 @@
 +++
 date = "2017-01-12T21:45:17+08:00"
 title = "Links 2"
-tags = ["parenting", "drugs", "personalisation", "sitecore", "http/2 server push", "service workers", "c sharp", "tesla", "battery tech"]
+tags = ["links", "parenting", "drugs", "personalisation", "sitecore", "http/2 server push", "service workers", "c sharp", "tesla", "battery tech"]
 +++
 
 [Dreadful dads](https://aeon.co/essays/what-the-childless-fathers-of-existentialism-teach-real-dads) - "If we permit ourselves a moment of existential authenticity, a chance to see our kids as they really are rather than what we wish them to be, it is clear that childhood is often terrifying. So is parenthood. This realisation, as dismal as it might seem, grants a parent something that optimism typically forbids: meaningful empathy, the capacity to feel for someone else."
