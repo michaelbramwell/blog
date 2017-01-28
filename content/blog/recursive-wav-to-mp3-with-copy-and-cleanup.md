@@ -1,7 +1,7 @@
 +++
 date = "2017-01-12T23:08:58+08:00"
 title = "Recursive wav to mp3 with copy and cleanup"
-tags = ["bash", "lame", "encoding", "wav", "mp3", "find", "recursion"]
+tags = ["dev", "bash", "lame", "encoding", "wav", "mp3", "find", "recursion"]
 +++
 
 I have recently been digitizing mine and my wife'   s old cd collection with the resulting files stored to [Waveform Audio File Format (WAV)](https://en.wikipedia.org/wiki/WAV) format under an artist -> album directory structure. 
