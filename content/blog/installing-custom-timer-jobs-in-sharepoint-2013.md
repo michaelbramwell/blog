@@ -1,6 +1,6 @@
 +++
 title = "Installing Custom Timer Jobs in SharePoint 2013"
-tags = ["dev", "sharepoint", "timer jobs"]
+tags = ["dev", "sharepoint", "timer jobs", "c-sharp"]
 date = "2015-09-05T12:38:51+08:00"
 
 +++
