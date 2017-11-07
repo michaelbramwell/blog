@@ -7,7 +7,7 @@
             <form><input placeholder="Search" /></form>
 
             <ul id="server">
-            {{ range .Data.Pages.ByPublishDate }}
+            {{ range .Data.Pages.ByPublishDate.Reverse }}
                 {{ if eq .Section "blog" }}
                     {{ partial "li.html" . }}
                 {{ end }}

@@ -1,4 +1,4 @@
-baseurl             = "http://io.mdb.net.au/"
+baseurl             = "https://io.mdb.net.au/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
@@ -24,11 +24,10 @@ dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 description  = "Mike's Blog"
 email        = "mike@mdb.net.au"
 faviconfile  = "img/leaf.ico"
-github       = "//github.com/michaelbramwell"
+github       = "https://gist.github.com/michaelbramwell"
 highlightjs  = true
 lang         = "en"
 linkedin     = "//linkedin.com/in/michael-bramwell-3ab96558"
-twitter      = "//twitter.com/mykdb"
 
 [taxonomies]
 tag = "tags"
