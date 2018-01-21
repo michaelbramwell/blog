@@ -1,6 +1,6 @@
 +++
-date = "2016-11-17T20:53:02+08:00"
-title = "Sitecore Html Sitemap Builder"
+date = "2017-02-17T20:53:02+08:00"
+title = "Sitecore 8 Html Sitemap Builder"
 tags = ["dev","sitecore", "sitemap", "c-sharp"]
 
 +++
